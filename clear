@@ -1,0 +1,51 @@
+*   [33mcommit eceefc39df8e3df13db93d7abeda0158cd1013d3[m[33m ([m[1;36mHEAD -> [m[1;32mfeature[m[33m, [m[1;32mmaster[m[33m)[m
+[31m|[m[32m\[m  Merge: 352169e 5845a13
+[31m|[m [32m|[m Author: hashir Mon <hashirweb@gmail.com>
+[31m|[m [32m|[m Date:   Tue May 11 20:39:00 2021 +0530
+[31m|[m [32m|[m 
+[31m|[m [32m|[m     Seperate branch merged
+[31m|[m [32m|[m     
+[31m|[m [32m|[m     Merge branch 'feature'
+[31m|[m [32m|[m 
+[31m|[m * [33mcommit 5845a13106a396376c977b6775ab329aa9948a2c[m
+[31m|[m [32m|[m Author: hashir Mon <hashirweb@gmail.com>
+[31m|[m [32m|[m Date:   Tue May 11 20:24:33 2021 +0530
+[31m|[m [32m|[m 
+[31m|[m [32m|[m     style file modified
+[31m|[m [32m|[m 
+* [32m|[m [33mcommit 352169ec07ee04d93414dd2cb75a286a677d6b3f[m
+[32m|[m[32m/[m  Author: hashir Mon <hashirweb@gmail.com>
+[32m|[m   Date:   Tue May 11 20:16:51 2021 +0530
+[32m|[m   
+[32m|[m       index file modified
+[32m|[m   
+[32m|[m * [33mcommit 6c5b63a7f0b6089ff9a02a5e1c3da67c41dc86d5[m[33m ([m[1;35mrefs/stash[m[33m)[m
+[32m|[m[32m/[m[34m|[m Merge: 657bebd 2e8bf19
+[32m|[m [34m|[m Author: hashir Mon <hashirweb@gmail.com>
+[32m|[m [34m|[m Date:   Tue May 11 20:06:38 2021 +0530
+[32m|[m [34m|[m 
+[32m|[m [34m|[m     WIP on master: 657bebd designer name added
+[32m|[m [34m|[m 
+[32m|[m * [33mcommit 2e8bf194306d6a3a64eddb6afdae6e2c6e388e3a[m
+[32m|[m[32m/[m  Author: hashir Mon <hashirweb@gmail.com>
+[32m|[m   Date:   Tue May 11 20:06:38 2021 +0530
+[32m|[m   
+[32m|[m       index on master: 657bebd designer name added
+[32m|[m 
+* [33mcommit 657bebdb03d135f094dd282698b79b4d6a75bca1[m[33m ([m[1;31mtest/master[m[33m, [m[1;31mtest/feature[m[33m)[m
+[34m|[m Author: hashir Mon <hashirweb@gmail.com>
+[34m|[m Date:   Tue May 11 19:20:58 2021 +0530
+[34m|[m 
+[34m|[m     designer name added
+[34m|[m 
+* [33mcommit b8f64469cca5f335104d33212b396de6b9b7f5bc[m
+[34m|[m Author: hashir Mon <hashirweb@gmail.com>
+[34m|[m Date:   Tue May 11 19:16:37 2021 +0530
+[34m|[m 
+[34m|[m     developer name added
+[34m|[m 
+* [33mcommit 3215dd5d33e6c31ae290c3621a09ab78654ca14b[m
+  Author: hashir Mon <hashirweb@gmail.com>
+  Date:   Tue May 11 19:12:00 2021 +0530
+  
+      website added
