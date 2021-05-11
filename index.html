@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<title></title>
+</head>
+<body>
+
+<section class="form_section">
+	<!-- left form -->
+	<div class="left_form form_wrapper">
+		<h2>General Information</h2>
+		<form method="POST" action="#">
+			<select class="form-control">
+				<option>Title</option>
+				<option value="Dummy">Dummy</option>
+				<option value="Dummy">Dummy</option>
+				<option value="Dummy">Dummy</option>
+				<option value="Dummy">Dummy</option>
+			</select>
+			<div class="row">
+				<div class="col-md-6">
+					<input type="text" required name="fname" class="form-control" placeholder="First Name">
+				</div>
+				<div class="col-md-6">
+					<input type="text" required name="lname" class="form-control" placeholder="Last Name">
+				</div>
+
+				<div class="col-md-12">
+					<input type="text" required name="position" class="form-control" placeholder="Position">
+				</div>
+				<div class="col-md-12">
+					<input type="text" required name="company" class="form-control" placeholder="Company">
+				</div>
+
+				<div class="col-md-7">
+					<input type="text" required name="bsnss" class="form-control" placeholder="Business Area">
+				</div>
+				<div class="col-md-5">
+					<input type="text" required name="lname" class="form-control" placeholder="Employees">
+				</div>
+			</div>
+		</form>
+	</div>
+
+	<!-- right form -->
+	<div class="right_form form_wrapper">
+		<h2>Contact Details</h2>
+		<form method="POST" action="#">
+			<div class="col-md-12">
+				<input type="text" required name="street" class="form-control" placeholder="Street +Nr">
+			</div>
+			<div class="col-md-12">
+				<input type="text" required name="addInfo" class="form-control" placeholder="Addtional Information">
+			</div>
+			<div class="col-md-7">
+				<input type="text" required name="zip" class="form-control" placeholder="Zipcode">
+			</div>
+			<div class="col-md-5">
+				<select class="form-control">
+					<option>Place</option>
+					<option value="Dummy">Dummy</option>
+					<option value="Dummy">Dummy</option>
+					<option value="Dummy">Dummy</option>
+					<option value="Dummy">Dummy</option>
+				</select>
+			</div>
+			<div class="col-md-12">
+				<input type="text" required name="country" class="form-control" placeholder="Country">
+			</div>
+
+			<div class="col-md-7">
+				<input type="text" required name="code" class="form-control" placeholder="Code+">
+			</div>
+			<div class="col-md-5">
+				<input type="number" required name="mobile" class="form-control" placeholder="Phone Number">
+			</div>
+			<div class="col-md-12">
+				<input type="email" required name="email" class="form-control" placeholder="Email">
+			</div>
+
+			<div class="col-md-12 d-flex align-items-center">
+				<input type="radio" name="">
+				<label>I do accept the <a href="#">Terms and condition</a> on your site.</label>
+			</div>
+
+			<!-- submit btn -->
+			<button type="submit" class="submit_btn"> Register Badge</button>
+		</form>
+	</div>
+</section>
+
+</body>
+</html>

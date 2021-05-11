@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Roboto:wght@100;300;400;500&display=swap');
+
+
+*, 
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: var(--poppins);
+	width: 100%;
+	min-height: 100vh;
+	background: #8181ff !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+:root {
+	--roboto:  'Roboto', sans-serif;
+	--poppins:  'Poppins', sans-serif;
+}
+
+input, select {
+	font-family: var(--poppins) !important;
+}
+
+input:focus {
+	box-shadow: none !important;
+	outline: none !important;
+}
+
+
+.form_section {
+	width: 100%;
+	max-width: 1140px;
+	width: 95%;
+	margin-inline: auto;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.left_form, .right_form {
+	padding: 2em;
+	flex: 1 1 calc(100% / 2);
+}
+
+.left_form > h2 {
+	color: #4646d2;
+	font-weight: 500;
+	margin-bottom: 1em;
+	font-size: 1.9em;
+}
+
+.left_form select, .left_form input {
+	border: none !important;
+	border-radius: 0;
+	border-bottom: 1px solid #e9e8e8 !important;  
+	box-shadow: none;
+	margin-bottom: 2em;
+}
+
+/* .left_form input:not(:last-child) {
+	margin-bottom: 2em
+} */
+
+
+.left_form select:focus, .left_form input:focus {
+	box-shadow: none;
+}
+
+.right_form {
+	background-color: #00ff;
+}
+
+.right_form > h2 {
+	color: white;
+	font: 500 1.9em/ 2em var(--poppins);
+}
+
+.right_form input , .right_form select {
+	background: transparent;
+	border: none;
+	box-shadow: none;
+	outline: none;
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+	color: rgba(255,255,255,1);
+	margin-bottom: 1.5em;
+}
+
+.submit_btn {
+	all: unset;
+	padding: 0.5em 1em;
+	background: #fff;
+	border-radius: 2em;
+	box-shadow: 1px 1px 15px rgba(0,0,0,0.2);
+	margin: 1em 0 0 1em;
+	font: 500 1.05em/ 2em var(--poppins);
+	cursor: pointer;
+}
+
+input[type=radio] {
+	transform: scale(1.1);
+	margin-right: 0.8em !important;
+}
+
+input[type=radio] ~ label {
+	color: whitesmoke;
+	margin: 0 0 1.3em 0;
+	display: inline-block;
+	font-family: var(--roboto);
+	font-weight: normal
+}
+
+input[type=radio] ~ label a {
+	color: white !important;
+	text-decoration: underline;
+}
+
+.right_form input {
+	color: white;
+}
+
+.right_form input::placeholder {
+	color: rgba(255,255,255,0.9)
+}
+
+@media (max-width: 767px) {
+	.left_form, .right_form {
+		padding: 2em;
+		flex: 1 1 100%;
+	}
+}
